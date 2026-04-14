@@ -1,0 +1,48 @@
+[0.009s] Invoking command in '/home/kmra/ros2/easy_bot/ros_ws/build/easy_bot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/kmra/ros2/easy_bot/ros_ws/build/easy_bot -- -j4 -l4
+[0.068s] [35m[1mConsolidate compiler generated dependencies of target easy_bot_controller[0m
+[0.085s] [ 50%] Built target easy_bot_hardware
+[0.090s] [ 75%] [32mBuilding CXX object CMakeFiles/easy_bot_controller.dir/controller/easy_bot_controller.cpp.o[0m
+[6.100s] [100%] [32m[1mLinking CXX shared library libeasy_bot_controller.so[0m
+[6.388s] [100%] Built target easy_bot_controller
+[6.398s] Invoked command in '/home/kmra/ros2/easy_bot/ros_ws/build/easy_bot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/kmra/ros2/easy_bot/ros_ws/build/easy_bot -- -j4 -l4
+[6.409s] Invoking command in '/home/kmra/ros2/easy_bot/ros_ws/build/easy_bot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/kmra/ros2/easy_bot/ros_ws/build/easy_bot
+[6.415s] -- Install configuration: ""
+[6.415s] -- Up-to-date: /home/kmra/ros2/easy_bot/ros_ws/install/easy_bot/share/easy_bot/hardware_interface.xml
+[6.415s] -- Up-to-date: /home/kmra/ros2/easy_bot/ros_ws/install/easy_bot/share/easy_bot/controller_interface.xml
+[6.415s] -- Up-to-date: /home/kmra/ros2/easy_bot/ros_ws/install/easy_bot/share/easy_bot/urdf
+[6.415s] -- Up-to-date: /home/kmra/ros2/easy_bot/ros_ws/install/easy_bot/share/easy_bot/urdf/easy_bot.ros2_control.xacro
+[6.415s] -- Up-to-date: /home/kmra/ros2/easy_bot/ros_ws/install/easy_bot/share/easy_bot/urdf/easy_bot_description.urdf.xacro
+[6.415s] -- Up-to-date: /home/kmra/ros2/easy_bot/ros_ws/install/easy_bot/share/easy_bot/urdf/easy_bot.urdf.xacro
+[6.416s] -- Up-to-date: /home/kmra/ros2/easy_bot/ros_ws/install/easy_bot/share/easy_bot/urdf/common_inertia.xacro
+[6.416s] -- Up-to-date: /home/kmra/ros2/easy_bot/ros_ws/install/easy_bot/share/easy_bot/launch
+[6.416s] -- Up-to-date: /home/kmra/ros2/easy_bot/ros_ws/install/easy_bot/share/easy_bot/launch/easy_bot_sim.launch.py
+[6.416s] -- Up-to-date: /home/kmra/ros2/easy_bot/ros_ws/install/easy_bot/share/easy_bot/launch/rviz_show.launch.py
+[6.416s] -- Up-to-date: /home/kmra/ros2/easy_bot/ros_ws/install/easy_bot/share/easy_bot/config
+[6.416s] -- Up-to-date: /home/kmra/ros2/easy_bot/ros_ws/install/easy_bot/share/easy_bot/config/easy_bot_controller.yaml
+[6.416s] -- Up-to-date: /home/kmra/ros2/easy_bot/ros_ws/install/easy_bot/share/easy_bot/config/rviz_config.rviz
+[6.416s] -- Up-to-date: /home/kmra/ros2/easy_bot/ros_ws/install/easy_bot/lib/libeasy_bot_hardware.so
+[6.416s] -- Installing: /home/kmra/ros2/easy_bot/ros_ws/install/easy_bot/lib/libeasy_bot_controller.so
+[6.425s] -- Set runtime path of "/home/kmra/ros2/easy_bot/ros_ws/install/easy_bot/lib/libeasy_bot_controller.so" to ""
+[6.425s] -- Up-to-date: /home/kmra/ros2/easy_bot/ros_ws/install/easy_bot/include/include
+[6.425s] -- Up-to-date: /home/kmra/ros2/easy_bot/ros_ws/install/easy_bot/include/include/easy_bot.hpp
+[6.425s] -- Up-to-date: /home/kmra/ros2/easy_bot/ros_ws/install/easy_bot/include/include
+[6.425s] -- Installing: /home/kmra/ros2/easy_bot/ros_ws/install/easy_bot/include/include/easy_bot_controller.hpp
+[6.425s] -- Up-to-date: /home/kmra/ros2/easy_bot/ros_ws/install/easy_bot/share/ament_index/resource_index/package_run_dependencies/easy_bot
+[6.425s] -- Up-to-date: /home/kmra/ros2/easy_bot/ros_ws/install/easy_bot/share/ament_index/resource_index/parent_prefix_path/easy_bot
+[6.425s] -- Up-to-date: /home/kmra/ros2/easy_bot/ros_ws/install/easy_bot/share/easy_bot/environment/ament_prefix_path.sh
+[6.425s] -- Up-to-date: /home/kmra/ros2/easy_bot/ros_ws/install/easy_bot/share/easy_bot/environment/ament_prefix_path.dsv
+[6.425s] -- Up-to-date: /home/kmra/ros2/easy_bot/ros_ws/install/easy_bot/share/easy_bot/environment/path.sh
+[6.425s] -- Up-to-date: /home/kmra/ros2/easy_bot/ros_ws/install/easy_bot/share/easy_bot/environment/path.dsv
+[6.425s] -- Up-to-date: /home/kmra/ros2/easy_bot/ros_ws/install/easy_bot/share/easy_bot/local_setup.bash
+[6.425s] -- Up-to-date: /home/kmra/ros2/easy_bot/ros_ws/install/easy_bot/share/easy_bot/local_setup.sh
+[6.425s] -- Up-to-date: /home/kmra/ros2/easy_bot/ros_ws/install/easy_bot/share/easy_bot/local_setup.zsh
+[6.425s] -- Up-to-date: /home/kmra/ros2/easy_bot/ros_ws/install/easy_bot/share/easy_bot/local_setup.dsv
+[6.426s] -- Installing: /home/kmra/ros2/easy_bot/ros_ws/install/easy_bot/share/easy_bot/package.dsv
+[6.426s] -- Up-to-date: /home/kmra/ros2/easy_bot/ros_ws/install/easy_bot/share/ament_index/resource_index/packages/easy_bot
+[6.426s] -- Up-to-date: /home/kmra/ros2/easy_bot/ros_ws/install/easy_bot/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/easy_bot
+[6.426s] -- Up-to-date: /home/kmra/ros2/easy_bot/ros_ws/install/easy_bot/share/ament_index/resource_index/controller_interface__pluginlib__plugin/easy_bot
+[6.426s] -- Up-to-date: /home/kmra/ros2/easy_bot/ros_ws/install/easy_bot/share/easy_bot/cmake/ament_cmake_export_dependencies-extras.cmake
+[6.426s] -- Up-to-date: /home/kmra/ros2/easy_bot/ros_ws/install/easy_bot/share/easy_bot/cmake/easy_botConfig.cmake
+[6.426s] -- Up-to-date: /home/kmra/ros2/easy_bot/ros_ws/install/easy_bot/share/easy_bot/cmake/easy_botConfig-version.cmake
+[6.426s] -- Up-to-date: /home/kmra/ros2/easy_bot/ros_ws/install/easy_bot/share/easy_bot/package.xml
+[6.428s] Invoked command in '/home/kmra/ros2/easy_bot/ros_ws/build/easy_bot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/kmra/ros2/easy_bot/ros_ws/build/easy_bot

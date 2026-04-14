@@ -1,0 +1,35 @@
+[31mCMake Error at /opt/ros/humble/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:145 (target_link_libraries):
+  The keyword signature for target_link_libraries has already been used with
+  the target "easy_bot_hardware".  All uses of target_link_libraries with a
+  target must be either all-keyword or all-plain.
+
+  The uses of the keyword signature are here:
+
+   * CMakeLists.txt:29 (target_link_libraries)
+
+Call Stack (most recent call first):
+  CMakeLists.txt:36 (ament_target_dependencies)
+
+[0m
+[31mCMake Error at /opt/ros/humble/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:145 (target_link_libraries):
+  The keyword signature for target_link_libraries has already been used with
+  the target "easy_bot_controller".  All uses of target_link_libraries with a
+  target must be either all-keyword or all-plain.
+
+  The uses of the keyword signature are here:
+
+   * CMakeLists.txt:53 (target_link_libraries)
+
+Call Stack (most recent call first):
+  CMakeLists.txt:59 (ament_target_dependencies)
+
+[0m
+[31mCMake Error at /opt/ros/humble/share/pluginlib/cmake/pluginlib_export_plugin_description_file.cmake:84 (message):
+  Given plugin description file
+  '/home/kmra/ros2/easy_bot/ros_ws/src/easy_bot/controller_interface.xml'
+  does not exist
+Call Stack (most recent call first):
+  CMakeLists.txt:71 (pluginlib_export_plugin_description_file)
+
+[0m
+gmake: *** [Makefile:308：cmake_check_build_system] 错误 1

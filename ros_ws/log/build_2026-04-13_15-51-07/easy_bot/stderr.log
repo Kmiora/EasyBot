@@ -1,0 +1,8 @@
+In file included from [01m[K/home/kmra/ros2/easy_bot/ros_ws/src/easy_bot/controller/easybot_controller.cpp:15[m[K:
+[01m[K/home/kmra/ros2/easy_bot/ros_ws/src/easy_bot/controller/include/easybot_controller.hpp:22:10:[m[K [01;31m[Kfatal error: [m[Kforward_controllers_base.hpp: 没有那个文件或目录
+   22 | #include [01;31m[K"forward_controllers_base.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/easy_bot_controller.dir/build.make:76：CMakeFiles/easy_bot_controller.dir/controller/easybot_controller.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:165：CMakeFiles/easy_bot_controller.dir/all] 错误 2
+gmake: *** [Makefile:146：all] 错误 2

@@ -1,0 +1,58 @@
+[0.000000] (-) TimerEvent: {}
+[0.000962] (easy_bot) JobQueued: {'identifier': 'easy_bot', 'dependencies': OrderedDict()}
+[0.001465] (easy_bot) JobStarted: {'identifier': 'easy_bot'}
+[0.011319] (easy_bot) JobProgress: {'identifier': 'easy_bot', 'progress': 'cmake'}
+[0.011726] (easy_bot) JobProgress: {'identifier': 'easy_bot', 'progress': 'build'}
+[0.012200] (easy_bot) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/kmra/ros2/easy_bot/ros_ws/build/easy_bot', '--', '-j4', '-l4'], 'cwd': '/home/kmra/ros2/easy_bot/ros_ws/build/easy_bot', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('PYTHON_BASIC_REPL', '1'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'kmra'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/kmra'), ('CHROME_DESKTOP', 'code.desktop'), ('OLDPWD', '/home/kmra/ros2'), ('TERM_PROGRAM_VERSION', '1.113.0'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1564'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('SYSTEMD_EXEC_PID', '1726'), ('BUNDLED_DEBUGPY_PATH', '/home/kmra/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/libs/debugpy'), ('IM_CONFIG_CHECK_ENV', '1'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2809'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'kmra'), ('JOURNAL_STREAM', '8:22389'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'kmra'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('FC_FONTATIONS', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/kmra/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/scripts/noConfigScripts'), ('SESSION_MANAGER', 'local/Yuki:@/tmp/.ICE-unix/1698,unix/Yuki:/tmp/.ICE-unix/1698'), ('INVOCATION_ID', 'b218222e99414544a796cd97b980410a'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'wayland'), ('DISPLAY', ':0'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/kmra/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-5e33a6a512d9972c.txt'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('PYTHONSTARTUP', '/home/kmra/.config/Code/User/workspaceStorage/18c69521950b8abf0837b3a79e8fb73c/ms-python.python/pythonrc.py'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.56H9M3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-f55fb7437f.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/kmra/ros2/easy_bot/ros_ws/build/easy_bot'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.086106] (easy_bot) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target easy_bot_hardware\x1b[0m\n'}
+[0.101935] (-) TimerEvent: {}
+[0.103853] (easy_bot) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/easy_bot_hardware.dir/hardware/easy_bot.cpp.o\x1b[0m\n'}
+[0.202155] (-) TimerEvent: {}
+[0.303842] (-) TimerEvent: {}
+[0.404291] (-) TimerEvent: {}
+[0.505405] (-) TimerEvent: {}
+[0.606173] (-) TimerEvent: {}
+[0.706537] (-) TimerEvent: {}
+[0.807089] (-) TimerEvent: {}
+[0.907831] (-) TimerEvent: {}
+[1.008502] (-) TimerEvent: {}
+[1.109111] (-) TimerEvent: {}
+[1.209863] (-) TimerEvent: {}
+[1.310174] (-) TimerEvent: {}
+[1.410845] (-) TimerEvent: {}
+[1.511271] (-) TimerEvent: {}
+[1.611887] (-) TimerEvent: {}
+[1.712403] (-) TimerEvent: {}
+[1.812852] (-) TimerEvent: {}
+[1.913540] (-) TimerEvent: {}
+[1.994952] (easy_bot) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[1.995548] (easy_bot) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[1.995681] (easy_bot) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[1.995728] (easy_bot) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[1.995798] (easy_bot) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[1.995836] (easy_bot) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[1.995864] (easy_bot) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[1.995905] (easy_bot) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[1.995935] (easy_bot) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[1.996030] (easy_bot) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[1.996078] (easy_bot) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/kmra/ros2/easy_bot/ros_ws/src/easy_bot/hardware/include/easy_bot.hpp:12\x1b[m\x1b[K,\n'}
+[1.996120] (easy_bot) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/kmra/ros2/easy_bot/ros_ws/src/easy_bot/hardware/easy_bot.cpp:1\x1b[m\x1b[K:\n'}
+[1.996152] (easy_bot) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kmra/ros2/easy_bot/ros_ws/src/easy_bot/hardware/easy_bot.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual hardware_interface::return_type easy_bot::EasyBotHardware::write(const rclcpp::Time&, const rclcpp::Duration&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.996187] (easy_bot) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kmra/ros2/easy_bot/ros_ws/src/easy_bot/hardware/easy_bot.cpp:174:22:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kclass rclcpp::Clock\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[Kget_clock\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.996217] (easy_bot) StderrLine: {'line': b'  174 |     *rclcpp::Clock().\x1b[01;31m\x1b[Kget_clock\x1b[m\x1b[K(),\n'}
+[1.996264] (easy_bot) StderrLine: {'line': b'      |                      \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[1.999820] (easy_bot) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kmra/ros2/easy_bot/ros_ws/src/easy_bot/hardware/easy_bot.cpp:\x1b[m\x1b[K In lambda function:\n'}
+[1.999917] (easy_bot) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kmra/ros2/easy_bot/ros_ws/src/easy_bot/hardware/easy_bot.cpp:172:3:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kc\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[1.999959] (easy_bot) StderrLine: {'line': b'  172 |   \x1b[01;31m\x1b[KRCLCPP_INFO_THROTTLE\x1b[m\x1b[K(\n'}
+[1.999992] (easy_bot) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.013959] (-) TimerEvent: {}
+[2.114750] (-) TimerEvent: {}
+[2.215378] (-) TimerEvent: {}
+[2.315764] (-) TimerEvent: {}
+[2.411869] (easy_bot) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/easy_bot_hardware.dir/build.make:76\xef\xbc\x9aCMakeFiles/easy_bot_hardware.dir/hardware/easy_bot.cpp.o] \xe9\x94\x99\xe8\xaf\xaf 1\n'}
+[2.412849] (easy_bot) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137\xef\xbc\x9aCMakeFiles/easy_bot_hardware.dir/all] \xe9\x94\x99\xe8\xaf\xaf 2\n'}
+[2.412949] (easy_bot) StderrLine: {'line': b'gmake: *** [Makefile:146\xef\xbc\x9aall] \xe9\x94\x99\xe8\xaf\xaf 2\n'}
+[2.414922] (easy_bot) CommandEnded: {'returncode': 2}
+[2.416085] (-) TimerEvent: {}
+[2.423959] (easy_bot) JobEnded: {'identifier': 'easy_bot', 'rc': 2}
+[2.434678] (-) EventReactorShutdown: {}

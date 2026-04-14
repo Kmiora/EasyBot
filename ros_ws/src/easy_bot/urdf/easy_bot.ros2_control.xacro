@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro">
+    <xacro:macro name="easy_bot_ros2_control">
+    <ros2_control name="easy_bot" type="system">
+        <hardware>
+            <plugin>easy_bot/EasyBotHardware</plugin>
+            <param name="example_param_hw_slowdown">10.0</param>
+        </hardware>
+        <joint name="joint1">
+            <command_interface name="position" />
+            <state_interface name="position" />
+        </joint>
+        <joint name="joint2">
+            <command_interface name="position" />
+            <state_interface name="position" />
+        </joint>
+    </ros2_control>
+    </xacro:macro>
+</robot>

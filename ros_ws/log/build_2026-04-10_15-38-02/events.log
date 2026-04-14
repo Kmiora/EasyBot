@@ -1,0 +1,68 @@
+[0.000000] (-) TimerEvent: {}
+[0.000167] (-) JobUnselected: {'identifier': 'easy_bot'}
+[0.000192] (easy_bot_hardware) JobQueued: {'identifier': 'easy_bot_hardware', 'dependencies': OrderedDict()}
+[0.000731] (easy_bot_hardware) JobStarted: {'identifier': 'easy_bot_hardware'}
+[0.006449] (easy_bot_hardware) JobProgress: {'identifier': 'easy_bot_hardware', 'progress': 'cmake'}
+[0.007658] (easy_bot_hardware) Command: {'cmd': ['/usr/bin/cmake', '/home/kmra/ros2/easy_bot/ros_ws/src/easy_bot_hardware', '-DCMAKE_BUILD_TYPE=RelWithDebInfo', '-DCMAKE_EXPORT_COMPILE_COMMANDS=ON', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/kmra/ros2/easy_bot/ros_ws/install/easy_bot_hardware'], 'cwd': '/home/kmra/ros2/easy_bot/ros_ws/build/easy_bot_hardware', 'env': OrderedDict([('RAW_TERMINAL_COLOR_LIGHT_CYAN', '\x1b[1;36m'), ('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('PYTHON_BASIC_REPL', '1'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'kmra'), ('TERMINAL_COLOR_USER_INPUT_DECISION', '\\e[0;35m'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('TERMINAL_COLOR_GREEN', '\\e[0;32m'), ('RAW_TERMINAL_COLOR_WHITE', '\x1b[1;37m'), ('RAW_TERMINAL_COLOR_GRAY', '\x1b[1;30m'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/kmra'), ('CHROME_DESKTOP', 'code.desktop'), ('ROS_WS_CACHE_SOURCED_TIME', '0'), ('OLDPWD', '/home/kmra/ros2/easy_bot/ros_ws'), ('TERM_PROGRAM_VERSION', '1.113.0'), ('DESKTOP_SESSION', 'ubuntu'), ('TERMINAL_COLOR_LIGHT_GREEN', '\\e[1;32m'), ('RAW_TERMINAL_COLOR_BLACK', '\x1b[0;30m'), ('RAW_TERMINAL_COLOR_LIGHT_GRAY', '\x1b[0;37m'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('TERMINAL_COLOR_BLUE', '\\e[0;34m'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('TERMINAL_COLOR_RED', '\\e[0;31m'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1584'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('SYSTEMD_EXEC_PID', '1741'), ('BUNDLED_DEBUGPY_PATH', '/home/kmra/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/libs/debugpy'), ('IM_CONFIG_CHECK_ENV', '1'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINAL_COLOR_LIGHT_BLUE', '\\e[1;34m'), ('TERMINAL_COLOR_CYAN', '\\e[0;36m'), ('RAW_TERMINAL_COLOR_BROWN', '\x1b[0;33m'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2706'), ('TERMINAL_COLOR_LIGHT_RED', '\\e[1;31m'), ('RAW_TERMINAL_COLOR_PURPLE', '\x1b[0;35m'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/kmra/ros2/easy_bot/ros_ws/install'), ('ROS_DISTRO', 'humble'), ('TERMINAL_COLOR_NC', '\\e[0m'), ('TERMINAL_COLOR_LIGHT_CYAN', '\\e[1;36m'), ('LOGNAME', 'kmra'), ('JOURNAL_STREAM', '8:24184'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('RAW_TERMINAL_COLOR_LIGHT_PURPLE', '\x1b[1;35m'), ('RAW_TERMINAL_COLOR_YELLOW', '\x1b[1;33m'), ('TERMINAL_COLOR_USER_CONFIRMATION', '\\e[0;34m'), ('USERNAME', 'kmra'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('FC_FONTATIONS', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('TERMINAL_COLOR_WHITE', '\\e[1;37m'), ('TERMINAL_COLOR_GRAY', '\\e[1;30m'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/kmra/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/scripts/noConfigScripts'), ('SESSION_MANAGER', 'local/Yuki:@/tmp/.ICE-unix/1717,unix/Yuki:/tmp/.ICE-unix/1717'), ('INVOCATION_ID', '6127fff600bb46cb89f44309132ab6a5'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'wayland'), ('RTW_COLOR_NOTIFY_USER', '\\e[1;33m'), ('TERMINAL_COLOR_LIGHT_GRAY', '\\e[0;37m'), ('TERMINAL_COLOR_BLACK', '\\e[0;30m'), ('DISPLAY', ':0'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/kmra/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-5e33a6a512d9972c.txt'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('PYTHONSTARTUP', '/home/kmra/.config/Code/User/workspaceStorage/18c69521950b8abf0837b3a79e8fb73c/ms-python.python/pythonrc.py'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.L1LMN3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-f55fb7437f.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/kmra/ros2/easy_bot/ros_ws/install/easy_bot:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINAL_COLOR_BROWN', '\\e[0;33m'), ('ROS_WS', '/home/kmra/ros2/easy_bot/ros_ws'), ('QT_ACCESSIBILITY', '1'), ('RAW_TERMINAL_COLOR_GREEN', '\x1b[0;32m'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('TERMINAL_COLOR_PURPLE', '\\e[0;35m'), ('RAW_TERMINAL_COLOR_LIGHT_GREEN', '\x1b[1;32m'), ('TERMINAL_COLOR_USER_NOTICE', '\\e[1;33m'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('TERMINAL_COLOR_LIGHT_PURPLE', '\\e[1;35m'), ('TERMINAL_COLOR_YELLOW', '\\e[1;33m'), ('PWD', '/home/kmra/ros2/easy_bot/ros_ws/build/easy_bot_hardware'), ('RAW_TERMINAL_COLOR_BLUE', '\x1b[0;34m'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('RAW_TERMINAL_COLOR_RED', '\x1b[0;31m'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('RAW_TERMINAL_COLOR_CYAN', '\x1b[0;36m'), ('RAW_TERMINAL_COLOR_LIGHT_BLUE', '\x1b[1;34m'), ('RTW_COLOR_ERROR', '\\e[0;31m'), ('COLCON', '1'), ('RAW_TERMINAL_COLOR_LIGHT_RED', '\x1b[1;31m'), ('CMAKE_PREFIX_PATH', '/home/kmra/ros2/easy_bot/ros_ws/install/easy_bot:/opt/ros/humble'), ('RAW_TERMINAL_COLOR_NC', '\x1b[0m')]), 'shell': False}
+[0.100178] (-) TimerEvent: {}
+[0.198811] (easy_bot_hardware) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.200268] (-) TimerEvent: {}
+[0.258455] (easy_bot_hardware) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.274610] (easy_bot_hardware) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.300887] (-) TimerEvent: {}
+[0.349134] (easy_bot_hardware) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.353339] (easy_bot_hardware) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.354306] (easy_bot_hardware) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.356096] (easy_bot_hardware) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.359081] (easy_bot_hardware) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.401670] (-) TimerEvent: {}
+[0.430150] (easy_bot_hardware) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.438099] (easy_bot_hardware) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.438295] (easy_bot_hardware) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.438387] (easy_bot_hardware) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.446238] (easy_bot_hardware) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.502634] (-) TimerEvent: {}
+[0.578339] (easy_bot_hardware) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.603363] (-) TimerEvent: {}
+[0.637640] (easy_bot_hardware) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.681270] (easy_bot_hardware) StdoutLine: {'line': b'-- Found hardware_interface: 2.53.1 (/opt/ros/humble/share/hardware_interface/cmake)\n'}
+[0.703686] (-) TimerEvent: {}
+[0.727392] (easy_bot_hardware) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.735054] (easy_bot_hardware) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.746514] (easy_bot_hardware) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.763059] (easy_bot_hardware) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.782033] (easy_bot_hardware) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.804345] (-) TimerEvent: {}
+[0.905558] (-) TimerEvent: {}
+[1.006060] (-) TimerEvent: {}
+[1.008089] (easy_bot_hardware) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[1.011762] (easy_bot_hardware) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.050390] (easy_bot_hardware) StdoutLine: {'line': b'-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND\n'}
+[1.104657] (easy_bot_hardware) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[1.106379] (-) TimerEvent: {}
+[1.109432] (easy_bot_hardware) StdoutLine: {'line': b'-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND\n'}
+[1.120739] (easy_bot_hardware) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[1.124087] (easy_bot_hardware) StdoutLine: {'line': b'-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND\n'}
+[1.131963] (easy_bot_hardware) StdoutLine: {'line': b'-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND\n'}
+[1.139210] (easy_bot_hardware) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.150504] (easy_bot_hardware) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[1.207155] (-) TimerEvent: {}
+[1.259308] (easy_bot_hardware) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[1.259471] (easy_bot_hardware) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[1.307940] (-) TimerEvent: {}
+[1.332002] (easy_bot_hardware) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[1.333123] (easy_bot_hardware) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[1.387964] (easy_bot_hardware) StderrLine: {'line': b'\x1b[31mCMake Error at /opt/ros/humble/share/pluginlib/cmake/pluginlib_export_plugin_description_file.cmake:84 (message):\n'}
+[1.388157] (easy_bot_hardware) StderrLine: {'line': b'  Given plugin description file\n'}
+[1.388212] (easy_bot_hardware) StderrLine: {'line': b"  '/home/kmra/ros2/easy_bot/ros_ws/src/easy_bot_hardware/easy_bot_hardware.xml'\n"}
+[1.388257] (easy_bot_hardware) StderrLine: {'line': b'  does not exist\n'}
+[1.388299] (easy_bot_hardware) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[1.388339] (easy_bot_hardware) StderrLine: {'line': b'  CMakeLists.txt:34 (pluginlib_export_plugin_description_file)\n'}
+[1.388379] (easy_bot_hardware) StderrLine: {'line': b'\n'}
+[1.388418] (easy_bot_hardware) StderrLine: {'line': b'\x1b[0m\n'}
+[1.388458] (easy_bot_hardware) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[1.388546] (easy_bot_hardware) StdoutLine: {'line': b'See also "/home/kmra/ros2/easy_bot/ros_ws/build/easy_bot_hardware/CMakeFiles/CMakeOutput.log".\n'}
+[1.397170] (easy_bot_hardware) CommandEnded: {'returncode': 1}
+[1.408194] (-) TimerEvent: {}
+[1.415085] (easy_bot_hardware) JobEnded: {'identifier': 'easy_bot_hardware', 'rc': 1}
+[1.425875] (-) EventReactorShutdown: {}

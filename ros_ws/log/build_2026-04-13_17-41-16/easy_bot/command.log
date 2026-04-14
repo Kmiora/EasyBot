@@ -1,0 +1,6 @@
+Invoking command in '/home/kmra/ros2/easy_bot/ros_ws/build/easy_bot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/kmra/ros2/easy_bot/ros_ws/src/easy_bot -DCMAKE_INSTALL_PREFIX=/home/kmra/ros2/easy_bot/ros_ws/install/easy_bot
+Invoked command in '/home/kmra/ros2/easy_bot/ros_ws/build/easy_bot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/kmra/ros2/easy_bot/ros_ws/src/easy_bot -DCMAKE_INSTALL_PREFIX=/home/kmra/ros2/easy_bot/ros_ws/install/easy_bot
+Invoking command in '/home/kmra/ros2/easy_bot/ros_ws/build/easy_bot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/kmra/ros2/easy_bot/ros_ws/build/easy_bot -- -j4 -l4
+Invoked command in '/home/kmra/ros2/easy_bot/ros_ws/build/easy_bot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/kmra/ros2/easy_bot/ros_ws/build/easy_bot -- -j4 -l4
+Invoking command in '/home/kmra/ros2/easy_bot/ros_ws/build/easy_bot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/kmra/ros2/easy_bot/ros_ws/build/easy_bot
+Invoked command in '/home/kmra/ros2/easy_bot/ros_ws/build/easy_bot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/kmra/ros2/easy_bot/ros_ws/build/easy_bot

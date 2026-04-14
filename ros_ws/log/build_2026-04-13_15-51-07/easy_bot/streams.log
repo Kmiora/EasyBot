@@ -1,0 +1,12 @@
+[0.012s] Invoking command in '/home/kmra/ros2/easy_bot/ros_ws/build/easy_bot': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/kmra/ros2/easy_bot/ros_ws/build/easy_bot -- -j4 -l4
+[0.076s] [ 25%] [32mBuilding CXX object CMakeFiles/easy_bot_controller.dir/controller/easybot_controller.cpp.o[0m
+[0.082s] [ 75%] Built target easy_bot_hardware
+[0.171s] In file included from [01m[K/home/kmra/ros2/easy_bot/ros_ws/src/easy_bot/controller/easybot_controller.cpp:15[m[K:
+[0.171s] [01m[K/home/kmra/ros2/easy_bot/ros_ws/src/easy_bot/controller/include/easybot_controller.hpp:22:10:[m[K [01;31m[Kfatal error: [m[Kforward_controllers_base.hpp: 没有那个文件或目录
+[0.171s]    22 | #include [01;31m[K"forward_controllers_base.hpp"[m[K
+[0.171s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.171s] compilation terminated.
+[0.174s] gmake[2]: *** [CMakeFiles/easy_bot_controller.dir/build.make:76：CMakeFiles/easy_bot_controller.dir/controller/easybot_controller.cpp.o] 错误 1
+[0.174s] gmake[1]: *** [CMakeFiles/Makefile2:165：CMakeFiles/easy_bot_controller.dir/all] 错误 2
+[0.175s] gmake: *** [Makefile:146：all] 错误 2
+[0.181s] Invoked command in '/home/kmra/ros2/easy_bot/ros_ws/build/easy_bot' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/kmra/ros2/easy_bot/ros_ws/build/easy_bot -- -j4 -l4

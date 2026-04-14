@@ -1,0 +1,22 @@
+-- Install configuration: ""
+-- Up-to-date: /home/kmra/ros2/easy_bot/ros_ws/install/easy_bot/share/easy_bot/urdf
+-- Installing: /home/kmra/ros2/easy_bot/ros_ws/install/easy_bot/share/easy_bot/urdf/easy_bot_description.urdf.xacro
+-- Up-to-date: /home/kmra/ros2/easy_bot/ros_ws/install/easy_bot/share/easy_bot/urdf/easy_bot.urdf.xacro
+-- Up-to-date: /home/kmra/ros2/easy_bot/ros_ws/install/easy_bot/share/easy_bot/urdf/common_inertia.xacro
+-- Up-to-date: /home/kmra/ros2/easy_bot/ros_ws/install/easy_bot/share/easy_bot/launch
+-- Up-to-date: /home/kmra/ros2/easy_bot/ros_ws/install/easy_bot/share/easy_bot/launch/rviz_show.launch.py
+-- Up-to-date: /home/kmra/ros2/easy_bot/ros_ws/install/easy_bot/share/ament_index/resource_index/package_run_dependencies/easy_bot
+-- Up-to-date: /home/kmra/ros2/easy_bot/ros_ws/install/easy_bot/share/ament_index/resource_index/parent_prefix_path/easy_bot
+-- Up-to-date: /home/kmra/ros2/easy_bot/ros_ws/install/easy_bot/share/easy_bot/environment/ament_prefix_path.sh
+-- Up-to-date: /home/kmra/ros2/easy_bot/ros_ws/install/easy_bot/share/easy_bot/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/kmra/ros2/easy_bot/ros_ws/install/easy_bot/share/easy_bot/environment/path.sh
+-- Up-to-date: /home/kmra/ros2/easy_bot/ros_ws/install/easy_bot/share/easy_bot/environment/path.dsv
+-- Up-to-date: /home/kmra/ros2/easy_bot/ros_ws/install/easy_bot/share/easy_bot/local_setup.bash
+-- Up-to-date: /home/kmra/ros2/easy_bot/ros_ws/install/easy_bot/share/easy_bot/local_setup.sh
+-- Up-to-date: /home/kmra/ros2/easy_bot/ros_ws/install/easy_bot/share/easy_bot/local_setup.zsh
+-- Up-to-date: /home/kmra/ros2/easy_bot/ros_ws/install/easy_bot/share/easy_bot/local_setup.dsv
+-- Installing: /home/kmra/ros2/easy_bot/ros_ws/install/easy_bot/share/easy_bot/package.dsv
+-- Up-to-date: /home/kmra/ros2/easy_bot/ros_ws/install/easy_bot/share/ament_index/resource_index/packages/easy_bot
+-- Up-to-date: /home/kmra/ros2/easy_bot/ros_ws/install/easy_bot/share/easy_bot/cmake/easy_botConfig.cmake
+-- Up-to-date: /home/kmra/ros2/easy_bot/ros_ws/install/easy_bot/share/easy_bot/cmake/easy_botConfig-version.cmake
+-- Up-to-date: /home/kmra/ros2/easy_bot/ros_ws/install/easy_bot/share/easy_bot/package.xml

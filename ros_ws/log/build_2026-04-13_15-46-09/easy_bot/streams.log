@@ -1,0 +1,40 @@
+[0.019s] Invoking command in '/home/kmra/ros2/easy_bot/ros_ws/build/easy_bot': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/kmra/ros2/easy_bot/ros_ws/build/easy_bot -- -j4 -l4
+[0.165s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.342s] -- Found rclcpp: 16.0.19 (/opt/ros/humble/share/rclcpp/cmake)
+[0.395s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.399s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.414s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.430s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.451s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.509s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.513s] -- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.633s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.710s] -- Found hardware_interface: 2.53.1 (/opt/ros/humble/share/hardware_interface/cmake)
+[0.903s] -- Found controller_interface: 2.53.1 (/opt/ros/humble/share/controller_interface/cmake)
+[0.907s] -- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.977s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.977s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/kmra/ros2/easy_bot/ros_ws/src/easy_bot/hardware/include>;$<BUILD_INTERFACE:/home/kmra/ros2/easy_bot/ros_ws/src/easy_bot/controller/include>
+[0.977s] -- Configured cppcheck exclude dirs and/or files: 
+[0.977s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.978s] -- Added test 'lint_cmake' to check CMake code style
+[0.979s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.981s] -- Added test 'uncrustify' to check C / C++ code style
+[0.981s] -- Configured uncrustify additional arguments: 
+[0.982s] -- Added test 'xmllint' to check XML markup files
+[0.986s] -- Configuring done
+[1.011s] -- Generating done
+[1.021s] -- Build files have been written to: /home/kmra/ros2/easy_bot/ros_ws/build/easy_bot
+[1.050s] [35m[1mConsolidate compiler generated dependencies of target easy_bot_hardware[0m
+[1.059s] [ 25%] [32mBuilding CXX object CMakeFiles/easy_bot_controller.dir/controller/easybot_controller.cpp.o[0m
+[1.080s] [01m[K/home/kmra/ros2/easy_bot/ros_ws/src/easy_bot/controller/easybot_controller.cpp:15:10:[m[K [01;31m[Kfatal error: [m[Keasybot_controller/easybot_controller.hpp: 没有那个文件或目录
+[1.082s]    15 | #include [01;31m[K"easybot_controller/easybot_controller.hpp"[m[K
+[1.082s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.082s] compilation terminated.
+[1.082s] gmake[2]: *** [CMakeFiles/easy_bot_controller.dir/build.make:76：CMakeFiles/easy_bot_controller.dir/controller/easybot_controller.cpp.o] 错误 1
+[1.082s] gmake[1]: *** [CMakeFiles/Makefile2:165：CMakeFiles/easy_bot_controller.dir/all] 错误 2
+[1.082s] gmake[1]: *** 正在等待未完成的任务....
+[1.098s] [ 50%] [32mBuilding CXX object CMakeFiles/easy_bot_hardware.dir/hardware/easy_bot.cpp.o[0m
+[4.410s] [ 75%] [32m[1mLinking CXX shared library libeasy_bot_hardware.so[0m
+[4.703s] [ 75%] Built target easy_bot_hardware
+[4.703s] gmake: *** [Makefile:146：all] 错误 2
+[4.707s] Invoked command in '/home/kmra/ros2/easy_bot/ros_ws/build/easy_bot' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/kmra/ros2/easy_bot/ros_ws/build/easy_bot -- -j4 -l4

@@ -1,0 +1,58 @@
+[0.010s] Invoking command in '/home/kmra/ros2/easy_bot/ros_ws/build/easy_bot': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/kmra/ros2/easy_bot/ros_ws/src/easy_bot -DCMAKE_INSTALL_PREFIX=/home/kmra/ros2/easy_bot/ros_ws/install/easy_bot
+[0.151s] -- The C compiler identification is GNU 11.4.0
+[0.258s] -- The CXX compiler identification is GNU 11.4.0
+[0.270s] -- Detecting C compiler ABI info
+[0.339s] -- Detecting C compiler ABI info - done
+[0.342s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.343s] -- Detecting C compile features
+[0.343s] -- Detecting C compile features - done
+[0.347s] -- Detecting CXX compiler ABI info
+[0.415s] -- Detecting CXX compiler ABI info - done
+[0.420s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.420s] -- Detecting CXX compile features
+[0.420s] -- Detecting CXX compile features - done
+[0.431s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.543s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.627s] -- Found rclcpp: 16.0.19 (/opt/ros/humble/share/rclcpp/cmake)
+[0.684s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.689s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.703s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.723s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.743s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.801s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.804s] -- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.895s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.917s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.946s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.960s] -- Looking for pthread.h
+[1.034s] -- Looking for pthread.h - found
+[1.034s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.101s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.102s] -- Found Threads: TRUE  
+[1.162s] -- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.225s] -- Added test 'lint_cmake' to check CMake code style
+[1.227s] -- Added test 'xmllint' to check XML markup files
+[1.229s] -- Configuring done
+[1.233s] -- Generating done
+[1.234s] -- Build files have been written to: /home/kmra/ros2/easy_bot/ros_ws/build/easy_bot
+[1.244s] Invoked command in '/home/kmra/ros2/easy_bot/ros_ws/build/easy_bot' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/kmra/ros2/easy_bot/ros_ws/src/easy_bot -DCMAKE_INSTALL_PREFIX=/home/kmra/ros2/easy_bot/ros_ws/install/easy_bot
+[1.246s] Invoking command in '/home/kmra/ros2/easy_bot/ros_ws/build/easy_bot': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/kmra/ros2/easy_bot/ros_ws/build/easy_bot -- -j4 -l4
+[1.280s] Invoked command in '/home/kmra/ros2/easy_bot/ros_ws/build/easy_bot' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/kmra/ros2/easy_bot/ros_ws/build/easy_bot -- -j4 -l4
+[1.287s] Invoking command in '/home/kmra/ros2/easy_bot/ros_ws/build/easy_bot': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/kmra/ros2/easy_bot/ros_ws/build/easy_bot
+[1.292s] -- Install configuration: ""
+[1.293s] -- Installing: /home/kmra/ros2/easy_bot/ros_ws/install/easy_bot/share/ament_index/resource_index/package_run_dependencies/easy_bot
+[1.293s] -- Installing: /home/kmra/ros2/easy_bot/ros_ws/install/easy_bot/share/ament_index/resource_index/parent_prefix_path/easy_bot
+[1.293s] -- Installing: /home/kmra/ros2/easy_bot/ros_ws/install/easy_bot/share/easy_bot/environment/ament_prefix_path.sh
+[1.293s] -- Installing: /home/kmra/ros2/easy_bot/ros_ws/install/easy_bot/share/easy_bot/environment/ament_prefix_path.dsv
+[1.293s] -- Installing: /home/kmra/ros2/easy_bot/ros_ws/install/easy_bot/share/easy_bot/environment/path.sh
+[1.293s] -- Installing: /home/kmra/ros2/easy_bot/ros_ws/install/easy_bot/share/easy_bot/environment/path.dsv
+[1.294s] -- Installing: /home/kmra/ros2/easy_bot/ros_ws/install/easy_bot/share/easy_bot/local_setup.bash
+[1.294s] -- Installing: /home/kmra/ros2/easy_bot/ros_ws/install/easy_bot/share/easy_bot/local_setup.sh
+[1.294s] -- Installing: /home/kmra/ros2/easy_bot/ros_ws/install/easy_bot/share/easy_bot/local_setup.zsh
+[1.295s] -- Installing: /home/kmra/ros2/easy_bot/ros_ws/install/easy_bot/share/easy_bot/local_setup.dsv
+[1.295s] -- Installing: /home/kmra/ros2/easy_bot/ros_ws/install/easy_bot/share/easy_bot/package.dsv
+[1.295s] -- Installing: /home/kmra/ros2/easy_bot/ros_ws/install/easy_bot/share/ament_index/resource_index/packages/easy_bot
+[1.295s] -- Installing: /home/kmra/ros2/easy_bot/ros_ws/install/easy_bot/share/easy_bot/cmake/easy_botConfig.cmake
+[1.295s] -- Installing: /home/kmra/ros2/easy_bot/ros_ws/install/easy_bot/share/easy_bot/cmake/easy_botConfig-version.cmake
+[1.295s] -- Installing: /home/kmra/ros2/easy_bot/ros_ws/install/easy_bot/share/easy_bot/package.xml
+[1.297s] Invoked command in '/home/kmra/ros2/easy_bot/ros_ws/build/easy_bot' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/kmra/ros2/easy_bot/ros_ws/build/easy_bot

@@ -1,0 +1,88 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-3fba724e5a1643b18675.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "easy_bot",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "easy_bot_controller::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-easy_bot_controller-8edbd8b69ba9ea06948d.json",
+					"name" : "easy_bot_controller",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "easy_bot_hardware::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-easy_bot_hardware-0d82ab8c0209ac092bb5.json",
+					"name" : "easy_bot_hardware",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "easy_bot_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-easy_bot_uninstall-811eb8af4d730c784810.json",
+					"name" : "easy_bot_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-19742316ea3b7a3028f1.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/kmra/ros2/easy_bot/ros_ws/build/easy_bot",
+		"source" : "/home/kmra/ros2/easy_bot/ros_ws/src/easy_bot"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

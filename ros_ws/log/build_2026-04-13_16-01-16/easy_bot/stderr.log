@@ -1,0 +1,10 @@
+[31mCMake Error at CMakeLists.txt:56 (target_include_directories):
+  Cannot specify include directories for target "easy_bot_controller" which
+  is not built by this project.
+
+[0m
+[31mCMake Error at CMakeLists.txt:76 (install):
+  install TARGETS given target "easy_bot_controller" which does not exist.
+
+[0m
+gmake: *** [Makefile:308：cmake_check_build_system] 错误 1
