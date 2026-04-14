@@ -39,3 +39,22 @@
 
 # debug information files
 *.dwo
+
+# ROS2 build
+build/
+install/
+log/
+
+# colcon
+.colcon/
+
+# Python
+__pycache__/
+*.pyc
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store

@@ -1,3 +1,0 @@
-[35m[1mConsolidate compiler generated dependencies of target easy_bot_hardware[0m
-[ 25%] [32mBuilding CXX object CMakeFiles/easy_bot_controller.dir/controller/easybot_controller.cpp.o[0m
-[ 75%] Built target easy_bot_hardware

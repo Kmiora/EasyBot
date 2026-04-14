@@ -1,5 +1,0 @@
-[0.000000] (-) TimerEvent: {}
-[0.000278] (easy_bot_hardware) JobQueued: {'identifier': 'easy_bot_hardware', 'dependencies': OrderedDict([('easy_bot_hardware', '/home/kmra/ros2/easy_bot/ros_ws/install/easy_bot_hardware')])}
-[0.000499] (easy_bot_hardware) JobStarted: {'identifier': 'easy_bot_hardware'}
-[0.050126] (easy_bot_hardware) JobEnded: {'identifier': 'easy_bot_hardware', 'rc': 0}
-[0.050911] (-) EventReactorShutdown: {}

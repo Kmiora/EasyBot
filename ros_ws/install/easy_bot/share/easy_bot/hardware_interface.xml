@@ -1,6 +1,0 @@
-<library path="easy_bot_hardware"> <class name="easy_bot/EasyBotHardware" 
-         type="easy_bot::EasyBotHardware" 
-         base_class_type="hardware_interface::SystemInterface">
-    <description>Easy Bot 硬件接口</description>
-  </class>
-</library>

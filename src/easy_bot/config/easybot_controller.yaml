@@ -1,0 +1,27 @@
+controller_manager:
+  ros__parameters:
+    update_rate: 10
+
+    robot_joint_state_broadcaster:
+      type: joint_state_broadcaster/JointStateBroadcaster
+
+    forward_command_controller:
+      type: forward_command_controller/ForwardCommandController
+    
+    easybot_controller:
+      type: easybot_controller/EasyBotController
+      
+
+forward_command_controller:
+  ros__parameters:
+    joints:
+      - joint1
+      - joint2
+    interface_name: position
+
+easybot_controller:
+  ros__parameters:
+    joints:
+      - joint1
+      - joint2
+    interface_name: position
